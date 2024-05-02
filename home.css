@@ -1,0 +1,80 @@
+body{
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+    background-color: 	#ffffff
+}
+
+h1{ 
+    font-size: 50px ;
+    color: white;
+    opacity: 50%;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+#logo{
+    width: 150px;
+}
+
+#container{
+    background-image: url(https://images6.alphacoders.com/659/659715.png);
+    background-size: cover;
+    height: 700px;
+    padding: 40px;
+}
+/* header e li usei para criar o container branco onde está a logo e o link das outras pág!*/
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.712);
+    margin-right: 10px;
+    position: fixed;
+
+}
+
+
+li{
+    display: inline-block ;
+    
+    margin: 20px;
+    
+    height: 10px;
+}
+
+/* box é onde está armazenado as informações abaixo da imagem de capa de fundo!
+e os outro box são tudo para arrumá-lo e imagens arrumei o tamanho dos gifs e tals!! */
+
+.box{
+    width: 100%;
+    height: 1200px;
+    margin: 0 auto;
+    margin-top: 500px;    
+    background: linear-gradient(333.52deg, #8d8e8f 24.58%, #e4e4e4 84.55%, #c7c7c7 104.96%);;
+    border-radius: 5px;
+}
+
+.box-info{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 40px;
+    justify-content: center;
+}
+
+.box-title{
+    color: black;
+    font-size: 35px;
+    font-weight: 800;
+}
+
+.imagens {
+    width: 300px;
+    height: 350px;
+}

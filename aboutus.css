@@ -1,0 +1,55 @@
+body{
+    margin: 0px;
+    font-family: 'Circular Std', sans-serif;
+    background-color: 	#ffffff
+}
+
+#logo{
+    width: 150px;
+}
+
+/* container é onde mexo na imagem de fundo onde está a imagem de algum dos filmes*/
+
+#container{
+    background-image: url(https://wallpapercave.com/wp/wp9259176.jpg);
+    background-size: cover;
+    height: 700px;
+    padding: 40px;
+}
+/* header e li usei para criar o container branco onde está a logo e o link das outras pág!*/
+
+#header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 15px;
+    font-size: 16px;
+    color: white;
+    margin-right: 10px;
+    background-color: rgba(255, 255, 255, 0.712);
+    margin-right: 10px;
+    position: fixed;
+
+}
+
+li{
+    display: inline-block ;   
+    height: 10px;
+    margin: 20px;
+}
+/* box é onde está armazenado as informações abaixo da imagem de capa de fundo!*/
+
+.box{
+    width: 100%;
+    height: 500px;
+    margin: 0 auto;
+    margin-top: 500px;    
+    background: whitesmoke;
+    border-radius: 5px;
+}
+
+#imagens {
+
+    width: 200px;
+}
